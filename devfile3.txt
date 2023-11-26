@@ -1,5 +1,5 @@
-def mul(a, b):
-    """Function to sub two numbers."""
+ssfsfsdef mul(a, b):
+    """Functifsfsfsfsf to sub two numbers."""
     return a - b
 
 def div(a, b):
