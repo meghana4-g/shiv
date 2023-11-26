@@ -1,8 +1,8 @@
-def sub(a, b):
+def mul(a, b):
     """Function to sub two numbers."""
     return a - b
 
-def add(a, b):
+def div(a, b):
     """Function to add b from a."""
     return a + b
 # Example usage
