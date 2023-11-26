@@ -6,6 +6,7 @@ def add(a, b):
     """Function to add b from a."""
     return a + b
 # Example usage
+num1
 num1 = 10
 num2 = 5
 
