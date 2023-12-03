@@ -1,23 +1,15 @@
 pipeline {
- agent 
-    docker {
+    agent {
+        docker {
             image 'openjdk:16-alpine'
         }
-  }
-  stages {
-    stage('Test') {
-      steps {
-      //  sh 'node --version'
-        sh 'whoami'
-        sh 'ls'
-      }
     }
- stage('Java run') {
-      steps {
-        sh 'javac HelloWorld.java'
-        sh 'java HelloWorld'
-      }
+    stages {
+        stage('Java run') {
+            steps {
+                sh 'javac HelloWorld.java'
+                sh 'java HelloWorld'
+            }
+        }
     }
-    
-  }
 }
