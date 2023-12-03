@@ -9,5 +9,12 @@ pipeline {
         sh 'ls'
       }
     }
+ stage('Java run') {
+      steps {
+        sh 'javac HelloWorld.java'
+        sh 'java HelloWorld'
+      }
+    }
+    
   }
 }
