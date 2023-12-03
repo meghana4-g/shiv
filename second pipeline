@@ -1,9 +1,8 @@
 pipeline {
-    agent {
-        docker {
+    agent docker
+         {
             image 'openjdk:16-alpine'
-        }
-    }
+         }
     stages {
         stage('Java run') {
             steps {
